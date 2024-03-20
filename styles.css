@@ -5,9 +5,7 @@
 
 *{
     box-sizing: border-box;
-}
-.page{
-    height: 60rem;
+    font-size: max(1vh,1vw);
 }
 .left{
     position: absolute;
@@ -16,6 +14,30 @@
     background-image: url(./assets/pic1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+.logo{
+    height: 10em;
+}
+
+.odin{
+    background-color: black;
+    opacity: 50%;
+}
+
+.odin>div{
+    font-family: norse-bold, sans-serif;
+    color: white;
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+
+h1{
+    font-size: 2em;
 }
 
 .right{
@@ -30,12 +52,17 @@
 .form{
     margin: 20px 0 20px 0;
     height: 31rem;
-    padding: 20px;
+    padding-left: 2em;
+}
+
+input{
+    border-radius: 3px;
+    border: 1px #E5E7EB solid;
 }
 
 .para{
     padding: 20em 10em 2em 2em;
-    font-size: 1em
+    /* font-size: 1em */
 }
 
 .create-account{
@@ -50,4 +77,10 @@
     border-radius: 10px;
     height: 10%;
     width: 30%;
+}
+
+a{
+    color:#596D48;
+    font-weight: bold;
+    text-decoration: none;
 }
