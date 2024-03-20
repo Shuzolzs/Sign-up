@@ -2,3 +2,52 @@
     font-family:norse-bold;
     src: url(./assets/Norse-Bold.otf);
 }
+
+*{
+    box-sizing: border-box;
+}
+.page{
+    height: 60rem;
+}
+.left{
+    position: absolute;
+    height: 100rem;
+    width: 30%;
+    background-image: url(./assets/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.right{
+    margin-left:30%;
+}
+
+.para,.create-account{
+    height: 33rem;
+    width: auto;
+    background-color: rgb(255, 252, 248);
+}
+.form{
+    margin: 20px 0 20px 0;
+    height: 31rem;
+    padding: 20px;
+}
+
+.para{
+    padding: 20em 10em 2em 2em;
+    font-size: 1em
+}
+
+.create-account{
+    padding:2em;
+}
+
+.create-btn{
+    background-color: #596D48;
+    color: aliceblue;
+    font-weight:bold;
+    padding:3px;
+    border-radius: 10px;
+    height: 10%;
+    width: 30%;
+}
